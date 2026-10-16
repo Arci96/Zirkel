@@ -1,0 +1,14 @@
+name: Zirkel
+version: 1.0.0
+main: de.zirkel.ZirkelPlugin
+api-version: '1.21'
+description: Zirkel zum Nachbauen von Kreisen und Halbkreisen (Boden und Wand) mit Geister-Vorschau
+commands:
+  zirkel:
+    description: Zirkel-Werkzeug und Einstellungen
+    usage: /<command> [give|radius|hoch|runter|move|ausrichtung|form|block|loeschen]
+    permission: zirkel.use
+permissions:
+  zirkel.use:
+    description: Erlaubt die Benutzung des Zirkels
+    default: op
